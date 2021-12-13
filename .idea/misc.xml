@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_bagi.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_bali_activityy.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_bl.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_jawa_activityy.xml" value="0.33" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_jumlah.xml" value="0.12771739130434784" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_jw.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_kali.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_kurang.xml" value="0.1" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_minang_activityy.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_mn.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_sn.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/activity_sunda_activityy.xml" value="0.20606884057971014" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/bali.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/detailbali.xml" value="0.209375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/galeribali.xml" value="0.209375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/galerijawa.xml" value="0.25" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/galeriminang.xml" value="0.2" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/galerisunda.xml" value="0.209375" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/jawa.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/minang.xml" value="0.22" />
+        <entry key="..\:/Users/Acer/AndroidStudioProjects/KalkulatorLengkapp/app/src/main/res/layout/sunda.xml" value="0.209375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcsn"
+    tools:context=".mn">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#9EFFFFFF"
+        android:gravity="center"
+        android:text="PENGANTIN MINANG"
+        android:textColor="@color/black"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/mn1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn1"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="32dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/mn2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_glrmn3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn2"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/mn3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_glrmn4" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn3"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/mn4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_glrmn" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn4"
+        android:layout_width="125dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/mn5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_glrmn5" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_glrmn5"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        android:src="@drawable/mn6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <Button
+        android:id="@+id/btn_kmblmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:gravity="center"
+        android:text="KEMBALI"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_glrmn2" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

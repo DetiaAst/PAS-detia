@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcbl"
+    tools:context=".JawaActivityy">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_jw1"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:padding="7dp"
+        android:src="@drawable/jw1"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_detailjw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#C2FFFFFF"
+        android:padding="8dp"
+        android:text="Paes Ageng Yogyakarta, terinspirasi oleh kaum ningrat keraton Yogyakarta, memiliki
+ciri khas riasan hitam yang ditambahkan dengan lapisan prada. Pada kedua sisi kepala pengantin, centhung dipasang sebagai
+lambang kesiapannya dalam memasuki jenjang kehidupan baru, kepala sang pengantin dimahkotai dengan gunungan yang
+melambangkan penghormatan suami akan istrinya "
+        android:textColor="@color/teal_700"
+        android:textSize="7pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_jw1" />
+
+    <Button
+        android:id="@+id/btn_nextjw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="next"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_detailjw" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,26 @@
+package com.example.kalkulatorlengkapp;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+
+public class BaliActivityy extends AppCompatActivity {
+    Button btnNextbl;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_bali_activityy);
+        btnNextbl = (Button) findViewById(R.id.btn_nextbl);
+        btnNextbl.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent pindahBali = new Intent(BaliActivityy.this,bl.class);
+                startActivity(pindahBali);
+            }
+        });
+    }
+}

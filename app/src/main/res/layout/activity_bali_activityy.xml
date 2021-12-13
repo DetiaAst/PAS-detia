@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bcbl"
+    tools:context=".BaliActivityy">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/img_bl"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="8dp"
+        android:src="@drawable/bl"
+        app:civ_border_color="#81FFFFFF"
+        app:civ_border_width="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_detailbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="#C2FFFFFF"
+        android:padding="8dp"
+        android:text="Pengantin Bali
+ selalu terlihat meriah berkat busana yang terbuat dari kain prada berwarna cerah,
+ dilengkapi dengan mahkota emas. Terinspirasi oleh budaya Kerajaan Badung, Ayu Thari mengenakan busana payas agung,
+  lengkap dengan mahkota yang terbuat dari emas asli. “Beratnya sekitar 3 kilogram dan saya harus mengenakannya
+  selama dua hari berturut-turut,” kenang sang pengantin. Namun, Ayu Thari terlihat begitu anggun mengenakan mahkota tersebut!
+"
+        android:textColor="@color/teal_700"
+        android:textSize="7pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/img_bl" />
+
+    <Button
+        android:id="@+id/btn_nextbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/teal_700"
+        android:text="next"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txt_detailbl" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
